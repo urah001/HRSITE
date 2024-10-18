@@ -89,7 +89,7 @@ export default function Home() {
         </div>
       </div>
       {/* Services section  */}
-      <div className="bg-slate-100 text-gray-800 py-16">
+      <div id="service" className="bg-slate-100 text-gray-800 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-center text-slate-800 mb-8">
             Our Services
@@ -194,12 +194,18 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-blue-300">
+                  <Link
+                    href="#about"
+                    className="text-slate-300 hover:text-blue-300"
+                  >
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-blue-300">
+                  <Link
+                    href="#service"
+                    className="text-slate-300 hover:text-blue-300"
+                  >
                     Services
                   </Link>
                 </li>
@@ -210,13 +216,13 @@ export default function Home() {
               <p className="text-slate-300">
                 123 HR Street, Business City, 12345
               </p>
-              <p className="text-slate-300">Phone: (123) 456-7890</p>
-              <p className="text-slate-300">Email: info@hrsolutions.com</p>
+              <p className="text-slate-300">Phone: +234 913 781 0007</p>
+              <p className="text-slate-300">Email: info@hr.com</p>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-slate-700 text-center">
             <p className="text-slate-300">
-              &copy; 2024 HR Solutions. All rights reserved.
+              &copy; 2024 HR. All rights reserved.
             </p>
           </div>
         </div>

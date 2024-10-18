@@ -30,7 +30,7 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              href="#"
+              href="#service"
               className="text-slate-300 hover:text-blue-500 hover:border-b-2 hover:border-blue-500 px-3 py-2 font-medium transition duration-300 ease-in-out"
             >
               Services
@@ -65,7 +65,7 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              href="#"
+              href="#service"
               className="block text-slate-300 px-3 py-2 font-medium"
             >
               Services
