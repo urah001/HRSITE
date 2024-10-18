@@ -65,11 +65,7 @@ export default function Home() {
           driving transformative change and setting new benchmarks for
           excellence.
         </p>
-        <div className="mt-10">
-          <Button className="bg-blue-600 text-white hover:bg-blue-700">
-            Get Started
-          </Button>
-        </div>
+
         {/* vision and mission */}
         <div className="flex justify-center space-x-8 my-12">
           {/* Mission Section */}
