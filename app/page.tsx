@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Navbar from "./UiComponents/navbar";
 import "./globals.css";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
 export default function Home() {
   {
     /* using the rule of color palette which state that use primary, secondary and tertiary colors in 60%, 30% and 10% proportions, respectively
