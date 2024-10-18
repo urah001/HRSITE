@@ -89,7 +89,92 @@ export default function Home() {
         </div>
       </div>
       {/* Services section  */}
+      <div className="bg-slate-100 text-gray-800 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h1 className="text-4xl font-bold text-center text-slate-800 mb-8">
+            Our Services
+          </h1>
+          <p className="text-lg text-center text-slate-600 mb-16">
+            At HR Solutions, we offer comprehensive services to empower your
+            workforce and improve overall efficiency. Discover the wide range of
+            solutions we provide to support your business.
+          </p>
 
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            {/* Service 1 */}
+            <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+              <h2 className="text-2xl font-semibold text-slate-800 mb-4">
+                Talent Acquisition
+              </h2>
+              <p className="text-slate-600">
+                We streamline your hiring process by sourcing, recruiting, and
+                placing top talent for your business. Our strategies ensure you
+                get the right fit for each position.
+              </p>
+            </div>
+
+            {/* Service 2 */}
+            <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+              <h2 className="text-2xl font-semibold text-slate-800 mb-4">
+                Employee Training & Development
+              </h2>
+              <p className="text-slate-600">
+                Invest in your team’s growth with our customized training and
+                development programs. We offer solutions that enhance skills and
+                improve performance.
+              </p>
+            </div>
+
+            {/* Service 3 */}
+            <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+              <h2 className="text-2xl font-semibold text-slate-800 mb-4">
+                Payroll & Benefits Management
+              </h2>
+              <p className="text-slate-600">
+                From payroll processing to benefits administration, we handle
+                everything to ensure your employees are compensated on time,
+                every time, while managing their benefits.
+              </p>
+            </div>
+
+            {/* Service 4 */}
+            <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+              <h2 className="text-2xl font-semibold text-slate-800 mb-4">
+                HR Compliance
+              </h2>
+              <p className="text-slate-600">
+                Stay compliant with ever-changing labor laws and regulations. We
+                provide guidance and services to ensure your business adheres to
+                all legal standards.
+              </p>
+            </div>
+
+            {/* Service 5 */}
+            <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+              <h2 className="text-2xl font-semibold text-slate-800 mb-4">
+                Performance Management
+              </h2>
+              <p className="text-slate-600">
+                Boost productivity with our performance management tools that
+                help track employee progress, set goals, and conduct regular
+                evaluations.
+              </p>
+            </div>
+
+            {/* Service 6 */}
+            <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+              <h2 className="text-2xl font-semibold text-slate-800 mb-4">
+                HR Consulting
+              </h2>
+              <p className="text-slate-600">
+                Get expert advice on HR strategy, organizational development,
+                and business process improvements. We’re here to help align your
+                HR strategy with business goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* footer section of the webpage */}
       <footer className="bg-slate-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
