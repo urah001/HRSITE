@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-slate-50 bg-background text-foreground  flex flex-col">
       {/* header section of the webpage */}
-      {/* <Header /> */}
+
       <div className="bg-slate-800 text-white sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
@@ -29,19 +29,17 @@ export default function Home() {
       </div>
 
       {/* main section / hero section of the webpage */}
-      {/* <MainSection /> */}
+
       <section className="bg-white text-slate-800">
         {/* the img background  */}
         <div
           className="relative w-full h-screen bg-cover bg-center"
           style={{ backgroundImage: "url('./hr.svg')" }}
         >
-          <div className="absolute inset-0 bg-black opacity-30"></div>
+          <div className="absolute inset-0 bg-black opacity-30 "></div>
           <div className="relative z-10 flex flex-col justify-center items-center h-full">
-            <h1 className="text-4xl font-bold text-white">
-              Welcome to The HR Page
-            </h1>
-            <p className="text-lg text-slate-300 mt-4">
+            <h1 className="text-4xl font-bold ">Welcome to The HR Page</h1>
+            <p className="text-lg">
               Empowering your workforce with innovative HR solutions.
             </p>
             <button className="mt-6 bg-blue-500 text-white px-4 py-2 rounded">
@@ -90,8 +88,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* Services section  */}
+
       {/* footer section of the webpage */}
-      {/* <Footer /> */}
       <footer className="bg-slate-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
