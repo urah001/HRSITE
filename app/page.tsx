@@ -1,10 +1,8 @@
 import Link from "next/link";
-import Footer from "./UiComponents/footer";
-import Header from "./UiComponents/header";
-import MainSection from "./UiComponents/mainSection";
 import Navbar from "./UiComponents/navbar";
 import "./globals.css";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 export default function Home() {
   {
     /* using the rule of color palette which state that use primary, secondary and tertiary colors in 60%, 30% and 10% proportions, respectively
@@ -33,16 +31,15 @@ export default function Home() {
       {/* main section / hero section of the webpage */}
       {/* <MainSection /> */}
       <section className="bg-white text-slate-800">
+        {/* the img background  */}
         <div
           className="relative w-full h-screen bg-cover bg-center"
-          style={{ backgroundImage: "url('')" }}
+          style={{ backgroundImage: "url('./hr.svg')" }}
         >
-          {/* Overlay for better text visibility (optional) */}
           <div className="absolute inset-0 bg-black opacity-30"></div>
-
           <div className="relative z-10 flex flex-col justify-center items-center h-full">
             <h1 className="text-4xl font-bold text-white">
-              Welcome to Our HR Solutions
+              Welcome to The HR Page
             </h1>
             <p className="text-lg text-slate-300 mt-4">
               Empowering your workforce with innovative HR solutions.
@@ -124,11 +121,6 @@ export default function Home() {
                 <li>
                   <Link href="#" className="text-slate-300 hover:text-blue-300">
                     Services
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-slate-300 hover:text-blue-300">
-                    Contact
                   </Link>
                 </li>
               </ul>
